@@ -9,11 +9,14 @@
     <meta name="generator" content="PyCharm">
     <title>Cycle Cafe Sipariş Sistemi</title>
 
+    <script src="js/jquery.min.js"> </script>
+    <script src="js/menu.js"> </script>
+
     <!-- Bootstrap core CSS -->
-<link href="index_files/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Favicons -->
-<link rel="icon" href="https://getbootstrap.com/docs/5.1/assets/img/favicons/favicon.ico">
+    <link rel="icon" href="img/favicon.ico">
 
     <style>
       .bd-placeholder-img {
@@ -32,9 +35,7 @@
     </style>
     
     <!-- Custom styles for this template -->
-    <link href="index_files/sticky-footer-navbar.css" rel="stylesheet">
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
 
   </head>
   <body class="d-flex flex-column h-100">
@@ -72,61 +73,135 @@
 <main class="flex-shrink-0">
   <div class="container">
     <h1 class="mt-5">Menü</h1>
+      <div class="row justify-content-start">
+        <!-- Ürün Listesi Başlangıç -->
+        <div class="col-8">
 
-    <script>
+          <table class="table table-striped table-hover" id= "sicakKahve">
+              <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Ürün Adı</th>
+                <th scope="col">Fiyat</th>
+              </tr>
+              </thead>
+              <tbody>
 
-       $(function() {
+              </tbody>
+          </table>
 
-       var people = [];
+          <table class="table table-striped table-hover" id= "sogukKahve">
+              <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Ürün Adı</th>
+                <th scope="col">Fiyat</th>
+              </tr>
+              </thead>
+              <tbody>
 
-       $.getJSON('menu.json', function(data) {
-           $.each(data.sicakKahve, function(i, f) {
-              var tblRow =
-              "<tr>" +
-              "<td>" + f.urunNo + "</td>" +
-              "<td>" + f.urunAdi + "</td>" +
-              "<td>" + f.urunFiyati + "</td>" +
-              "</tr>"
-               $(tblRow).appendTo("#sicakKahve tbody");
-         });
+              </tbody>
+          </table>
 
-       });
+          <table class="table table-striped table-hover" id= "cay">
+              <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Ürün Adı</th>
+                <th scope="col">Fiyat</th>
+              </tr>
+              </thead>
+              <tbody>
 
-    });
-    </script>
+              </tbody>
+          </table>
 
-    <div class="row justify-content-start">
-    <div class="col-8">
-    <table class="table table-striped table-hover" id= "sicakKahve">
-    <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Sıcak Kahveler</th>
-      <th scope="col">Fiyat</th>
-    </tr>
-    </thead>
-    <tbody>
+          <table class="table table-striped table-hover" id= "sogukIcecek">
+              <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Ürün Adı</th>
+                <th scope="col">Fiyat</th>
+              </tr>
+              </thead>
+              <tbody>
 
-    </tbody>
-    </table>
+              </tbody>
+          </table>
+
+          <table class="table table-striped table-hover" id= "mesrubat">
+              <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Ürün Adı</th>
+                <th scope="col">Fiyat</th>
+              </tr>
+              </thead>
+              <tbody>
+
+              </tbody>
+          </table>
+
+          <table class="table table-striped table-hover" id= "sandwich">
+              <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Ürün Adı</th>
+                <th scope="col">Fiyat</th>
+              </tr>
+              </thead>
+              <tbody>
+
+              </tbody>
+          </table>
+
+          <table class="table table-striped table-hover" id= "tatli">
+              <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Ürün Adı</th>
+                <th scope="col">Fiyat</th>
+              </tr>
+              </thead>
+              <tbody>
+
+              </tbody>
+          </table>
+
+          <table class="table table-striped table-hover" id= "salata">
+              <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Ürün Adı</th>
+                <th scope="col">Fiyat</th>
+              </tr>
+              </thead>
+              <tbody>
+
+              </tbody>
+          </table>
+
     </div>
-    <div class="col-4">
+        <!-- Ürün Listesi Bitiş -->
+        <!-- Sipariş Listesi Başlangıç -->
+        <div class="col-4">
       <table class="table">
-    <thead>
-    <tr>
-      <th scope="col">Sipariş</th>
-      <th scope="col">Fiyat</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td>Espresso</td>
-      <td>14</td>
-    </tr>
-    </tbody>
-    </table>
+      <thead>
+      <tr>
+        <th scope="col">Sipariş</th>
+        <th scope="col">Fiyat</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Espresso</td>
+        <td>14</td>
+      </tr>
+      </tbody>
+      </table>
     </div>
-  </div>
+        <!-- Sipariş Listesi Bitiş -->
+      </div>
   </div>
 </main>
 
@@ -136,7 +211,7 @@
   </div>
 </footer>
 
-    <script src="index_files/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
