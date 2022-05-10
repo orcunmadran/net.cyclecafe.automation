@@ -1,78 +1,44 @@
 $(function() {
        $.getJSON('menu.json', function(data) {
-           $.each(data.sicakKahve, function(i, f) {
-           document.getElementById('sicakKahve').innerHTML +=
-           '<button type="button" class="btn btn-secondary">'+f.urunAdi+'</button>&nbsp&nbsp';
+            $.each(data.sicakKahve, function(i, f) {
+            document.getElementById('sicakKahve').innerHTML +=
+            '<button type="button" class="btn btn-secondary" onclick="ekle(\''+f.urunAdi+'\',\''+f.urunFiyati+'\')">'+f.urunAdi+'</button>';
          });
-           $.each(data.sogukKahve, function(i, f) {
-              var tblRow =
-              "<tr>" +
-              "<td>" + f.urunNo + "</td>" +
-              "<td>" + f.urunAdi + "</td>" +
-              "<td>" + f.urunFiyati + "</td>" +
-              "<td><button type='button' class='btn btn-success btn-sm'>" + "&#43" + "</button></td>" +
-              "</tr>"
-               $(tblRow).appendTo("#sogukKahve tbody");
+            $.each(data.sogukKahve, function(i, f) {
+            document.getElementById('sogukKahve').innerHTML +=
+            '<button type="button" class="btn btn-secondary" onclick="ekle(\''+f.urunAdi+'\',\''+f.urunFiyati+'\')">'+f.urunAdi+'</button>';
          });
-         $.each(data.cay, function(i, f) {
-              var tblRow =
-              "<tr>" +
-              "<td>" + f.urunNo + "</td>" +
-              "<td>" + f.urunAdi + "</td>" +
-              "<td>" + f.urunFiyati + "</td>" +
-              "<td><button type='button' class='btn btn-success btn-sm'>" + "&#43" + "</button></td>" +
-              "</tr>"
-               $(tblRow).appendTo("#cay tbody");
+            $.each(data.cay, function(i, f) {
+            document.getElementById('cay').innerHTML +=
+            '<button type="button" class="btn btn-secondary" onclick="ekle(\''+f.urunAdi+'\',\''+f.urunFiyati+'\')">'+f.urunAdi+'</button>';
          });
          $.each(data.sogukIcecek, function(i, f) {
-              var tblRow =
-              "<tr>" +
-              "<td>" + f.urunNo + "</td>" +
-              "<td>" + f.urunAdi + "</td>" +
-              "<td>" + f.urunFiyati + "</td>" +
-              "<td><button type='button' class='btn btn-success btn-sm'>" + "&#43" + "</button></td>" +
-              "</tr>"
-               $(tblRow).appendTo("#sogukIcecek tbody");
+            document.getElementById('sogukIcecek').innerHTML +=
+            '<button type="button" class="btn btn-secondary" onclick="ekle(\''+f.urunAdi+'\',\''+f.urunFiyati+'\')">'+f.urunAdi+'</button>';
          });
          $.each(data.mesrubat, function(i, f) {
-              var tblRow =
-              "<tr>" +
-              "<td>" + f.urunNo + "</td>" +
-              "<td>" + f.urunAdi + "</td>" +
-              "<td>" + f.urunFiyati + "</td>" +
-              "<td><button type='button' class='btn btn-success btn-sm'>" + "&#43" + "</button></td>" +
-              "</tr>"
-               $(tblRow).appendTo("#mesrubat tbody");
+            document.getElementById('mesrubat').innerHTML +=
+            '<button type="button" class="btn btn-secondary" onclick="ekle(\''+f.urunAdi+'\',\''+f.urunFiyati+'\')">'+f.urunAdi+'</button>';
          });
          $.each(data.sandwich, function(i, f) {
-              var tblRow =
-              "<tr>" +
-              "<td>" + f.urunNo + "</td>" +
-              "<td>" + f.urunAdi + "</td>" +
-              "<td>" + f.urunFiyati + "</td>" +
-              "<td><button type='button' class='btn btn-success btn-sm'>" + "&#43" + "</button></td>" +
-              "</tr>"
-               $(tblRow).appendTo("#sandwich tbody");
+            document.getElementById('sandwich').innerHTML +=
+            '<button type="button" class="btn btn-secondary" onclick="ekle(\''+f.urunAdi+'\',\''+f.urunFiyati+'\')">'+f.urunAdi+'</button>';
          });
          $.each(data.tatli, function(i, f) {
-              var tblRow =
-              "<tr>" +
-              "<td>" + f.urunNo + "</td>" +
-              "<td>" + f.urunAdi + "</td>" +
-              "<td>" + f.urunFiyati + "</td>" +
-              "<td><button type='button' class='btn btn-success btn-sm'>" + "&#43" + "</button></td>" +
-              "</tr>"
-               $(tblRow).appendTo("#tatli tbody");
+            document.getElementById('tatli').innerHTML +=
+            '<button type="button" class="btn btn-secondary" onclick="ekle(\''+f.urunAdi+'\',\''+f.urunFiyati+'\')">'+f.urunAdi+'</button>';
          });
          $.each(data.salata, function(i, f) {
-              var tblRow =
-              "<tr>" +
-              "<td>" + f.urunNo + "</td>" +
-              "<td>" + f.urunAdi + "</td>" +
-              "<td>" + f.urunFiyati + "</td>" +
-              "<td><button type='button' class='btn btn-success btn-sm'>" + "&#43" + "</button></td>" +
-              "</tr>"
-               $(tblRow).appendTo("#salata tbody");
+            document.getElementById('salata').innerHTML +=
+            '<button type="button" class="btn btn-secondary" onclick="ekle(\''+f.urunAdi+'\',\''+f.urunFiyati+'\')">'+f.urunAdi+'</button>';
          });
        });
     });
+
+toplamFiyat = 0;
+function ekle(urunA,urunB){
+    document.getElementById('siparis').innerHTML +=
+    '<tr><td>'+urunA+'</td><td>'+urunB+'</td><td><button type="button" class="btn btn-success btn-sm">&#8722</button></td></tr>';
+    toplamFiyat += parseInt(urunB);
+    document.getElementById('toplamFiyat').innerHTML = toplamFiyat;
+}
