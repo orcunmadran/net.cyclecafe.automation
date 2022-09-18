@@ -53,7 +53,7 @@
   ],
   "mesrubat":
   [
-    { "urunNo":"00", "urunAdi":"Su", "urunFiyati":8, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Su", "urunFiyati":5, "urunKDV":0.08, "urunServis":true },
     { "urunNo":"00", "urunAdi":"Soda", "urunFiyati":10, "urunKDV":0.08, "urunServis":true },
     { "urunNo":"00", "urunAdi":"Coca Cola", "urunFiyati":17, "urunKDV":0.08, "urunServis":true },
     { "urunNo":"00", "urunAdi":"Coca Cola Zero", "urunFiyati":17, "urunKDV":0.08, "urunServis":true },
@@ -70,13 +70,15 @@
   ],
   "tatli":
   [
+    { "urunNo":"00", "urunAdi":"Çikolatalı Kurabiye (Adet)", "urunFiyati":18, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Granola Bar (Adet)", "urunFiyati":20, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Granola Sütlü (Kase)", "urunFiyati":25, "urunKDV":0.08, "urunServis":true },
     { "urunNo":"00", "urunAdi":"Cheese Cake", "urunFiyati":32, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Mozaik Pasta", "urunFiyati":26, "urunKDV":0.08, "urunServis":true },
     { "urunNo":"00", "urunAdi":"Kek Sade", "urunFiyati":23, "urunKDV":0.08, "urunServis":true },
     { "urunNo":"00", "urunAdi":"Kek Meyveli", "urunFiyati":28, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Kurabiye (Adet)", "urunFiyati":12, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Kurabiye (Porsiyon)", "urunFiyati":20, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Magnolia", "urunFiyati":37, "urunKDV":0.08, "urunServis":true }
+    { "urunNo":"00", "urunAdi":"Kek Peynirli", "urunFiyati":30, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Magnolia", "urunFiyati":37, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Mozaik Pasta", "urunFiyati":26, "urunKDV":0.08, "urunServis":true }
   ],
   "salata":
   [
