@@ -53,8 +53,10 @@
   ],
   "mesrubat":
   [
-    { "urunNo":"00", "urunAdi":"Su", "urunFiyati":5, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Su", "urunFiyati":6.5, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Premium Su", "urunFiyati":13, "urunKDV":0.08, "urunServis":true },
     { "urunNo":"00", "urunAdi":"Soda", "urunFiyati":10, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Pellegrino", "urunFiyati":20, "urunKDV":0.08, "urunServis":true },
     { "urunNo":"00", "urunAdi":"Coca Cola", "urunFiyati":17, "urunKDV":0.08, "urunServis":true },
     { "urunNo":"00", "urunAdi":"Coca Cola Zero", "urunFiyati":17, "urunKDV":0.08, "urunServis":true },
     { "urunNo":"00", "urunAdi":"Gazoz", "urunFiyati":17, "urunKDV":0.08, "urunServis":true },
@@ -72,8 +74,9 @@
   [
     { "urunNo":"00", "urunAdi":"Çikolatalı Kurabiye (Adet)", "urunFiyati":18, "urunKDV":0.08, "urunServis":true },
     { "urunNo":"00", "urunAdi":"Granola Bar (Adet)", "urunFiyati":20, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Granola Sütlü (Kase)", "urunFiyati":25, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Granola Sütlü (Kase)", "urunFiyati":45, "urunKDV":0.08, "urunServis":true },
     { "urunNo":"00", "urunAdi":"Cheese Cake", "urunFiyati":32, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Browni", "urunFiyati":32, "urunKDV":0.08, "urunServis":true },
     { "urunNo":"00", "urunAdi":"Kek Sade", "urunFiyati":23, "urunKDV":0.08, "urunServis":true },
     { "urunNo":"00", "urunAdi":"Kek Meyveli", "urunFiyati":28, "urunKDV":0.08, "urunServis":true },
     { "urunNo":"00", "urunAdi":"Kek Peynirli", "urunFiyati":30, "urunKDV":0.08, "urunServis":true },
