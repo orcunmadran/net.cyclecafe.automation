@@ -1,89 +1,89 @@
 {
   "sicakKahve":
   [
-    { "urunNo":"00", "urunAdi":"Espresso", "urunFiyati":26, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Double Espresso", "urunFiyati":35, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Americano", "urunFiyati":30, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Filtre Kahve", "urunFiyati":33, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Latte", "urunFiyati":36, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Cappuccino", "urunFiyati":36, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Flat White", "urunFiyati":36, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Cortado Single", "urunFiyati":26, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Cortado Double", "urunFiyati":35, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Macchiato", "urunFiyati":40, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Caramel Macchiato", "urunFiyati":40, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"White Chocolate Mocha", "urunFiyati":40, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Dark Chocolate Mocha", "urunFiyati":40, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Extra Shot", "urunFiyati":10, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Türk Kahvesi", "urunFiyati":25, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Double Türk Kahvesi", "urunFiyati":35, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Sıcak Çikolata", "urunFiyati":40, "urunKDV":0.08, "urunServis":true }
+    { "urunNo":"00", "urunAdi":"Espresso", "urunFiyati":32, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Double Espresso", "urunFiyati":40, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Americano", "urunFiyati":40, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Filtre Kahve", "urunFiyati":40, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Latte", "urunFiyati":46, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Cappuccino", "urunFiyati":46, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Flat White", "urunFiyati":46, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Cortado Single", "urunFiyati":34, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Cortado Double", "urunFiyati":45, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Macchiato", "urunFiyati":48, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Caramel Macchiato", "urunFiyati":48, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"White Chocolate Mocha", "urunFiyati":48, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Dark Chocolate Mocha", "urunFiyati":48, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Extra Shot", "urunFiyati":15, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Türk Kahvesi", "urunFiyati":28, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Double Türk Kahvesi", "urunFiyati":40, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Sıcak Çikolata", "urunFiyati":45, "urunKDV":0.08, "urunServis":true }
   ],
   "sogukKahve":
   [
-    { "urunNo":"00", "urunAdi":"Iced Americano", "urunFiyati":30, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Iced Latte", "urunFiyati":36, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Iced Cappuccino", "urunFiyati":36, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Iced Macchiato", "urunFiyati":40, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Iced Caramel Macchiato", "urunFiyati":40, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Iced White Chocolate Mocha", "urunFiyati":40, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Iced Dark Chocolate Mocha", "urunFiyati":40, "urunKDV":0.08, "urunServis":true }
+    { "urunNo":"00", "urunAdi":"Iced Americano", "urunFiyati":40, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Iced Latte", "urunFiyati":46, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Iced Cappuccino", "urunFiyati":46, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Iced Macchiato", "urunFiyati":48, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Iced Caramel Macchiato", "urunFiyati":48, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Iced White Chocolate Mocha", "urunFiyati":48, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Iced Dark Chocolate Mocha", "urunFiyati":48, "urunKDV":0.08, "urunServis":true }
   ],
   "cay":
   [
-    { "urunNo":"00", "urunAdi":"Chai Tea Latte", "urunFiyati":37, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Demleme Siyah Çay", "urunFiyati":10, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Demleme Fincan Çay", "urunFiyati":16, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Exotic White", "urunFiyati":30, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Mint Green", "urunFiyati":30, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Masala Black", "urunFiyati":30, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Rooibos Vanilla", "urunFiyati":30, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Ginger Lemon", "urunFiyati":30, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Energic Fruits", "urunFiyati":30, "urunKDV":0.08, "urunServis":true }
+    { "urunNo":"00", "urunAdi":"Chai Tea Latte", "urunFiyati":45, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Demleme Siyah Çay", "urunFiyati":13, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Demleme Fincan Çay", "urunFiyati":20, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Exotic White", "urunFiyati":40, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Mint Green", "urunFiyati":40, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Masala Black", "urunFiyati":40, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Rooibos Vanilla", "urunFiyati":40, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Ginger Lemon", "urunFiyati":40, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Energic Fruits", "urunFiyati":40, "urunKDV":0.08, "urunServis":true }
   ],
   "sogukIcecek":
   [
-    { "urunNo":"00", "urunAdi":"Limonata", "urunFiyati":35, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Portakal Suyu", "urunFiyati":35, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Milkshake Kakao", "urunFiyati":38, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Milkshake Vanilya", "urunFiyati":38, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Smoothie Çilek", "urunFiyati":38, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Smoothie Muz", "urunFiyati":38, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Smoothie Limon", "urunFiyati":38, "urunKDV":0.08, "urunServis":true }
+    { "urunNo":"00", "urunAdi":"Limonata", "urunFiyati":45, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Portakal Suyu", "urunFiyati":45, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Milkshake Kakao", "urunFiyati":50, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Milkshake Vanilya", "urunFiyati":50, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Smoothie Çilek", "urunFiyati":50, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Smoothie Muz", "urunFiyati":50, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Smoothie Limon", "urunFiyati":50, "urunKDV":0.08, "urunServis":true }
   ],
   "mesrubat":
   [
-    { "urunNo":"00", "urunAdi":"Su", "urunFiyati":6.5, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Su", "urunFiyati":8.0, "urunKDV":0.08, "urunServis":true },
     { "urunNo":"00", "urunAdi":"Premium Su", "urunFiyati":15, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Soda", "urunFiyati":10, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Pellegrino", "urunFiyati":20, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Coca Cola", "urunFiyati":20, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Coca Cola Zero", "urunFiyati":20, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Gazoz", "urunFiyati":20, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Ice Tea Limon", "urunFiyati":20, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Ice Tea Şeftali", "urunFiyati":20, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Ice Tea Karpuz", "urunFiyati":20, "urunKDV":0.08, "urunServis":true }
+    { "urunNo":"00", "urunAdi":"Soda", "urunFiyati":15, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Pellegrino", "urunFiyati":25, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Coca Cola", "urunFiyati":25, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Coca Cola Zero", "urunFiyati":25, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Gazoz", "urunFiyati":25, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Ice Tea Limon", "urunFiyati":25, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Ice Tea Şeftali", "urunFiyati":25, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Ice Tea Karpuz", "urunFiyati":25, "urunKDV":0.08, "urunServis":true }
   ],
   "sandwich":
   [
-    { "urunNo":"00", "urunAdi":"Soğuk Sandwich", "urunFiyati":35, "urunKDV":0.08, "urunServis":true }
+    { "urunNo":"00", "urunAdi":"Soğuk Sandwich", "urunFiyati":45, "urunKDV":0.08, "urunServis":true }
   ],
   "tatli":
   [
-    { "urunNo":"00", "urunAdi":"Çikolatalı Kurabiye (Adet)", "urunFiyati":20, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Granola Bar (Adet)", "urunFiyati":20, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Granola Sütlü (Kase)", "urunFiyati":45, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Cheese Cake", "urunFiyati":35, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Browni", "urunFiyati":35, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Kek Sade", "urunFiyati":25, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Kek Meyveli", "urunFiyati":30, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Kek Peynirli", "urunFiyati":30, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Magnolia", "urunFiyati":40, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Mozaik Pasta", "urunFiyati":30, "urunKDV":0.08, "urunServis":true }
+    { "urunNo":"00", "urunAdi":"Çikolatalı Kurabiye (Adet)", "urunFiyati":25, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Granola Bar (Adet)", "urunFiyati":25, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Granola Sütlü (Kase)", "urunFiyati":55, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Cheese Cake", "urunFiyati":45, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Browni", "urunFiyati":45, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Kek Sade", "urunFiyati":35, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Kek Meyveli", "urunFiyati":35, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Kek Peynirli", "urunFiyati":35, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Magnolia", "urunFiyati":55, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Mozaik Pasta", "urunFiyati":35, "urunKDV":0.08, "urunServis":true }
   ],
   "salata":
   [
-    { "urunNo":"00", "urunAdi":"Meksika Salatası", "urunFiyati":40, "urunKDV":0.08, "urunServis":true },
-    { "urunNo":"00", "urunAdi":"Ton Balıklı Salata", "urunFiyati":50, "urunKDV":0.08, "urunServis":true }
+    { "urunNo":"00", "urunAdi":"Meksika Salatası", "urunFiyati":50, "urunKDV":0.08, "urunServis":true },
+    { "urunNo":"00", "urunAdi":"Ton Balıklı Salata", "urunFiyati":60, "urunKDV":0.08, "urunServis":true }
   ]
 }
